@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бидний тухай</title>
+    <link rel="icon" href="favicon (1).ico">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        body{
+            margin: 0;
+            font-family: "Montserrat", sans-serif;
+            background-color: #c2e38e;
+        }
+        header{
+            background-color: #ffffff;
+            padding: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+        #texty{
+            width: 95vw;
+            margin: 15px 0 0 15px;
+            color: rgb(0, 0, 0);
+        }
+        #texty h1{
+            font-size: 5rem;
+        }
+        .logo{
+            height: 15vh;
+        }
+        #info{
+            color: gray;
+        }
+        section{
+            background-color: #b1e362;
+            padding: 15px;
+            border-radius: 15px;
+            margin: 15px;
+            text-align: center;
+            color: white;
+            overflow: hidden;
+        }
+        a{
+            text-decoration: none;
+            color: #2f7820;
+            font-weight: 400;
+            transition: font-weight 0.5s;
+        }
+        a:hover{
+            font-weight: 600;
+        }
+        aside{
+            background-color: #2f7820;
+            border-radius: 15px;
+        }
+        .img section{
+            margin: 15px;
+            background-color: #2f7820;
+            display: flex;
+            justify-content: space-around;
+            height: 30vh;
+            padding: 0;
+            transition: height 0.5s;
+        }
+        .img h1{
+            font-size: xx-large;
+            align-self: center;
+        }
+        .div{
+            align-self: center;
+        }
+        .img img{
+            align-self: flex-end!important;
+            transition: transform 0.5s, transform 0.5s, transform 0.5s;
+        }
+        .img:hover img{
+            transform: scale(1.75) translateY(-5vh) translateX(1vw);
+        }
+        .img:hover section{
+            height: 40vh;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="eats-logo-black (1).svg"></a>
+        <div class="head">
+            <a href="index.html">Төслийн танилцуулга</a>&nbsp;&nbsp;&nbsp;&nbsp; 
+            <a href="abtus.html">Бидний талаар</a>   &nbsp;&nbsp;&nbsp;&nbsp; 
+            <a href="form.html">Санал бодлоо хуваалцах</a> 
+        </div>
+    </header>
+    <section>
+        <h1><img src="eats-logo-black (1).svg"> төслийн багийн гишүүд</h1>
+        <br><p class="info">Дээр нь дарж өөрийн танилцуулгыг нь уншина уу.</p>
+    </section>
+    <a class="img" href="saruul.html">
+        <section>
+            <img src="SARUULZURA (2).png" height="250">
+            <div class="div">
+                <h1>Саруул Ширчинсүрэн</h1>
+                <p>Хавтан загварчлагч, Видёо хийгч</p>   
+            </div>
+        </section>
+    </a>
+    <a class="img" href="narka.html">
+        <section>
+            <img src="IMG_0490[1] (1).png" height="250">
+            <div class="div">
+                <h1>Наранбадрал Буяннэмэх</h1>
+                <p>Хавтан загварчлагч, Видёо засварлагч, Веб хийгч, Код хийгч</p>   
+            </div>
+        </section>
+    </a>
+    <a class="img" href="eggy.html">
+        <section>
+            <img src="IMG_0483[1] (2).png" height="250">
+            <div class="div">
+                <h1>Эрхэт Гэрэл</h1>
+                <p>Хавтан загварчлагч, Тайлан  бичигч</p>   
+            </div>
+        </section>
+    </a>
+    <a class="img" href="ezzy.html">
+        <section>
+            <img src="IMG_0485[1] (1).png" height="250">
+            <div class="div">
+                <h1>Эзлэн Санчир</h1>
+                <p>Хавтан загварчлагч, Тайлан  бичигч</p>   
+            </div>
+        </section>
+    </a>
+</body>
+</html>

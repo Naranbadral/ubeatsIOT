@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Санал асуулга</title>
+    <link rel="icon" href="favicon (1).ico">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        body{
+            margin: 0;
+            font-family: "Montserrat", sans-serif;
+            background-color: #c2e38e;
+        }
+        header{
+            background-color: #ffffff;
+            padding: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+        #texty{
+            width: 95vw;
+            margin: 15px 0 0 15px;
+            color: rgb(0, 0, 0);
+        }
+        #texty h1{
+            font-size: 5rem;
+        }
+        .logo{
+            height: 15vh;
+        }
+        #info{
+            color: gray;
+        }
+        section{
+            background-color: #b1e362;
+            padding: 15px;
+            border-radius: 15px;
+            margin: 15px;
+            text-align: center;
+            display: flex;
+            color: white;
+            flex-direction: column;
+        }
+        section img{
+            border-radius: 15px;
+        }
+        a{
+            text-decoration: none;
+            color: #2f7820;
+            font-weight: 400;
+            transition: font-weight 0.5s;
+        }
+        a:hover{
+            font-weight: 600;
+        }
+        input{
+            margin: 10px;
+            font-family: "Montserrat", sans-serif;
+            border: none;
+            border-radius: 15px;
+            padding: 15px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        textarea{
+            resize: none;
+            margin: 10px;
+            font-family: "Montserrat", sans-serif;
+            border: none;
+            border-radius: 15px;
+            padding: 15px;
+            height: 10vh;
+            justify-self: center;
+        }
+        button{
+            background-color: #ffffff;
+            border: none;
+            padding: 15px;
+            border-radius: 15px;
+            font-family: "Montserrat", sans-serif;
+            margin: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="eats-logo-black (1).svg"></a>
+        <div class="head">
+            <a href="index.html">Төслийн танилцуулга</a>&nbsp;&nbsp;&nbsp;&nbsp; 
+            <a href="abtus.html">Бидний талаар</a>   &nbsp;&nbsp;&nbsp;&nbsp; 
+            <a href="form.html">Санал бодлоо хуваалцах</a> 
+        </div>
+    </header>
+    <section>
+        <h1>Санал бодлоо хуваалцах</h1>
+        <form>
+            <input required type="text" placeholder="Таны нэр"><br>
+            <input required type="email" placeholder="Имейл"><br>
+            <textarea placeholder="Хэлэх зурвас"></textarea>
+            <button type="submit">Илгээх</button>
+        </form>
+    </section>
+</body>
+</html>
